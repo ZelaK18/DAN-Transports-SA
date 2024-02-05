@@ -1,7 +1,9 @@
- .u-section-1 {
+.u-section-1 {
 	background-image: url("../images/vehicules/Vehicules_01.jpg");
-	background-position: 50% 50%;
+	background-position: 50% 50%; /* Ajustez la valeur du pourcentage vertical selon vos besoins */
+	margin-bottom: -60px; /* Ajustez la marge en dessous de l'image selon vos besoins */
 }
+
 
 .u-section-1 .u-sheet-1 {
 	min-height: 457px;
@@ -207,7 +209,8 @@
 }
 
 .u-section-3 .u-text-1 {
-	margin: 9px auto 0;
+	margin: 20px auto 0;
+	line-height: 0.5;
 }
 
 .u-section-3 .u-text-2 {
@@ -322,7 +325,7 @@
 
 .u-section-4 .u-text-2 {
 	font-weight: 700;
-	font-size: 1.15rem;
+	font-size: 1.3rem;
 	margin: 20px 1px 0;
 }
 
