@@ -36156,7 +36156,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*begin-variables sitestylecss*/
 				.u-body
-				{
+				{ /*#TODO 2560px ???*/
 				--theme-sheet-width-xl: 1490px;
 				--theme-sheet-width-lg: 940px;
 				--theme-sheet-width-md: 720px;
@@ -36514,7 +36514,14 @@ a.u-link.u-text-hover-grey-90:hover {
 	margin: 21px auto 60px 80px;
 }
 
-/* Taille du logo DAN-Transports SA pour les tablettes (1024px de largeur) */
+@media (max-width: 1440px) {
+	.u-header .u-logo-image-1 {
+		width: 100%;
+		height: auto;
+		margin: 21px auto 60px -20px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.u-header .u-logo-image-1 {
 		width: 100%;
@@ -36523,7 +36530,6 @@ a.u-link.u-text-hover-grey-90:hover {
 	}
 }
 
-/* Taille du logo DAN-Transports SA pour les smartphones (768px de largeur) */
 @media (max-width: 767px) {
 	.u-header .u-logo-image-1 {
 		width: 80%;
@@ -36532,7 +36538,6 @@ a.u-link.u-text-hover-grey-90:hover {
 	}
 }
 
-/* Taille du logo DAN-Transports SA pour les smartphones en mode paysage (425px de largeur) */
 @media (max-width: 425px) {
 	.u-header .u-logo-image-1 {
 		width: 70%;
@@ -36541,7 +36546,6 @@ a.u-link.u-text-hover-grey-90:hover {
 	}
 }
 
-/* Taille du logo DAN-Transports SA pour les smartphones en mode paysage (375px de largeur) */
 @media (max-width: 375px) {
 	.u-header .u-logo-image-1 {
 		width: 60%;
@@ -36550,7 +36554,6 @@ a.u-link.u-text-hover-grey-90:hover {
 	}
 }
 
-/* Taille du logo DAN-Transports SA pour les smartphones en mode paysage (320px de largeur) */
 @media (max-width: 320px) {
 	.u-header .u-logo-image-1 {
 		width: 50%;
@@ -36723,6 +36726,18 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 767px) {
 	.u-footer .u-text-3 {
 		margin-right: 0;
+	}
+}
+/*#TODO Hamburger menu poue 1140px + 2560px*/
+.u-button-style.u-nav-link {
+	padding: 8px 25.2px;
+	font-size: 21px;
+}
+
+@media (min-width: 1440px) {
+	.example-element {
+		padding: 8px 30px;
+		font-size: 24px;
 	}
 }
 
