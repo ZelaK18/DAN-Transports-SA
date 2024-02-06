@@ -36452,9 +36452,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-group-elements-1 {
-	width: 610px;
+	width: 700px;
 	min-height: 50px;
 	margin: 4px auto 0 0;
+}
+
+@media (max-width: 767px) {
+	.u-header .u-group-elements-1 {
+		width: 100%;
+		min-height: 40px;
+		margin: 2px auto 0 0;/
+	}
 }
 
 .u-header .u-text-1 {
@@ -36498,19 +36506,57 @@ a.u-link.u-text-hover-grey-90:hover {
 	height: 163px;
 	margin: 12px auto 0 181px;
 }
-/*Size (computer) Logo DAN-Transports SA*/
+
+/* Taille du logo DAN-Transports SA pour les ordinateurs */
 .u-header .u-logo-image-1 {
 	width: 125%;
 	height: 125%;
-	margin: 21px auto 60px 80px
+	margin: 21px auto 60px 80px;
 }
 
-/*Size (iphone) Logo DAN-Transports SA*/
+/* Taille du logo DAN-Transports SA pour les tablettes (1024px de largeur) */
+@media (max-width: 1024px) {
+	.u-header .u-logo-image-1 {
+		width: 100%;
+		height: auto;
+		margin: 10px auto;
+	}
+}
+
+/* Taille du logo DAN-Transports SA pour les smartphones (768px de largeur) */
 @media (max-width: 767px) {
-  .u-header .u-logo-image-1 {
-    width: 100%;
-    margin: 10px auto;
-  }
+	.u-header .u-logo-image-1 {
+		width: 80%;
+		height: auto;
+		margin: 10px auto;
+	}
+}
+
+/* Taille du logo DAN-Transports SA pour les smartphones en mode paysage (425px de largeur) */
+@media (max-width: 425px) {
+	.u-header .u-logo-image-1 {
+		width: 70%;
+		height: auto;
+		margin: 5px auto;
+	}
+}
+
+/* Taille du logo DAN-Transports SA pour les smartphones en mode paysage (375px de largeur) */
+@media (max-width: 375px) {
+	.u-header .u-logo-image-1 {
+		width: 60%;
+		height: auto;
+		margin: 5px auto;
+	}
+}
+
+/* Taille du logo DAN-Transports SA pour les smartphones en mode paysage (320px de largeur) */
+@media (max-width: 320px) {
+	.u-header .u-logo-image-1 {
+		width: 50%;
+		height: auto;
+		margin: 5px auto;
+	}
 }
 
 .u-header .u-menu-1 {
@@ -36680,23 +36726,21 @@ a.u-link.u-text-hover-grey-90:hover {
 	}
 }
 
-
- /*begin-variables base-font-size*/ 
- html { font-size: 16px; }
- /*end-variables base-font-size*/
-
+html { 
+	font-size: 16px; 
+}
 html {
-		height: 100%;
+	height: 100%;
 }
 body {
-		min-height: 100%;
-		display: grid;
-		grid-template-rows: 1fr auto;
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto;
 }
 #content {
-		grid-row-start: 1;
+	grid-row-start: 1;
 }
 footer {
-		grid-row-start: 2;
-		grid-row-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
