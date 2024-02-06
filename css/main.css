@@ -30448,7 +30448,7 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 
 @media (max-width: 1440px) {
 	.u-header .u-logo-image-1 {
-		width: 100%;
+		width: 110%;
 		height: auto;
 		margin: 21px auto 60px -20px;
 	}
@@ -30456,41 +30456,41 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 
 @media (max-width: 1024px) {
 	.u-header .u-logo-image-1 {
-		width: 100%;
+		width: 110%;
 		height: auto;
-		margin: 10px auto;
+	margin: 21px auto 60px -45px;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.u-header .u-logo-image-1 {
-		width: 80%;
+		width: 100%;
 		height: auto;
-		margin: 10px auto;
+	margin: 21px auto 60px 0px;
 	}
 }
 
 @media (max-width: 425px) {
 	.u-header .u-logo-image-1 {
-		width: 70%;
+		width: 100%;
 		height: auto;
-		margin: 5px auto;
+	margin: 21px auto 60px 0px;
 	}
 }
 
 @media (max-width: 375px) {
 	.u-header .u-logo-image-1 {
-		width: 60%;
+		width: 100%;
 		height: auto;
-		margin: 5px auto;
+	margin: 21px auto 60px -10px;
 	}
 }
 
 @media (max-width: 320px) {
 	.u-header .u-logo-image-1 {
-		width: 50%;
+		width: 90%;
 		height: auto;
-		margin: 5px auto;
+		margin: 21px auto 60px 10px;
 	}
 }
 
