@@ -30409,34 +30409,6 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 	margin: 0;
 }
 
-@media (min-width: 1441px) {
-	.u-header .u-text-1,
-	.u-header .u-text-2 {
-		font-size: 18px;
-	}
-}
-
-@media (min-width: 1025px) and (max-width: 1440px) {
-	.u-header .u-text-1,
-	.u-header .u-text-2 {
-		font-size: 17px;
-	}
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-	.u-header .u-text-1,
-	.u-header .u-text-2 {
-		font-size: 16px;
-	}
-}
-
-@media (min-width: 426px) and (max-width: 768px) {
-	.u-header .u-text-1,
-	.u-header .u-text-2 {
-		font-size: 15px;
-	}
-}
-
 @media (min-width: 376px) and (max-width: 425px) {
 	.u-header .u-text-1,
 	.u-header .u-text-2 {
