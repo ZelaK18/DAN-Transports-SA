@@ -30654,8 +30654,10 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 		margin-bottom: 30px;
 	}
 }
- .u-footer {
-	background-image: none;
+.u-footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
 
 .u-footer .u-sheet-1 {
@@ -30664,25 +30666,20 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 
 /*Taille pied de page*/
 .u-footer .u-text-1 {
-	margin: 10px 0 0 205px;
 }
 
 .u-footer .u-text-2 {
-	font-weight: 700;
-	margin: 10px 0 0 205px;
 }
 
 .u-footer .u-text-3 {
-	position: relative;
-	top: -198px;
-	margin: 10px 0 0 1450px;
+	top: -239px;
+	margin: 0 0 0 1252px;
 }
 
 .u-footer .u-text-4 {
 	font-style: italic;
 	font-size: 0.9rem;
-	position: relative;
-	margin-top: -190px;
+	margin-top: -230px;
 }
 @media (max-width: 1199px) {
 	.u-footer .u-text-1 {
