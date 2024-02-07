@@ -5687,9 +5687,11 @@ section.u-image:not(.u-hover-box),
 		transform: translateY(-50%);
 	}
 }
-.u-header.u-sticky {
-	position: fixed;
+.u-header {
+	position: sticky;
 	top: 0;
+	z-index: 9999;
+	background-color: #fff; /* Ajoutez d'autres styles selon vos besoins */
 }
 @supports (position: sticky) {
 	.u-header.u-sticky {
