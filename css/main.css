@@ -5691,7 +5691,7 @@ section.u-image:not(.u-hover-box),
 	position: sticky;
 	top: 0;
 	z-index: 9999;
-	background-color: #fff; /* Ajoutez d'autres styles selon vos besoins */
+	background-color: #fff;
 }
 @supports (position: sticky) {
 	.u-header.u-sticky {
