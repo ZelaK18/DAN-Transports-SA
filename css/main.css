@@ -30397,7 +30397,7 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 	}
 }
 
-/*Taille de l'entête + pied de page*/
+/*Taille de l'en-tête*/
 .u-header .u-text-1 {
 	margin: 0;
 	font-size: 15px;
@@ -30421,8 +30421,8 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 @media (max-width: 375px) {
 	.u-header .u-text-1,
 	.u-header .u-text-2 {
-		font-size: 12px;
-		text-align: center;
+		font-size: 13px;
+		text-align: left;
 		margin-top: 15px; 
 	}
 }
@@ -30660,6 +30660,7 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 	min-height: 223px;
 }
 
+/*Taille pied de page*/
 .u-footer .u-text-1 {
 	margin: 10px 413px 0 0;
 }
