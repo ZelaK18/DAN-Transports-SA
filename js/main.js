@@ -1,4 +1,4 @@
-/**** NAVBAR ****/
+/*Barre de navigation*/
 const links = document.querySelectorAll("nav li");
 
 icons.addEventListener("click", () => {
