@@ -758,6 +758,8 @@ nav {
 	align-items: center;
 	padding: 10px;
 	font-size: calc(0.5rem + 0.7vw);
+	margin-left: 76px;
+	margin-right: 110px;
 }
 nav ul {
 	display: flex;
