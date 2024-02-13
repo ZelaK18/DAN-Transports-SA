@@ -89,6 +89,27 @@
 		white-space: pre-wrap;
 		word-wrap: break-word;
 		overflow: visible; }
+/*  .fr-view[dir="rtl"] blockquote {
+		border-left: none;
+		border-right: solid 2px #5E35B1;
+		margin-right: 0;
+		padding-right: 5px;
+		padding-left: 0; }
+		.fr-view[dir="rtl"] blockquote blockquote {
+			border-color: #00BCD4; }
+			.fr-view[dir="rtl"] blockquote blockquote blockquote {
+				border-color: #43A047; }
+	.fr-view blockquote {
+		border-left: solid 2px #5E35B1;
+		margin-left: 0;
+		padding-left: 5px;
+		color: #5E35B1; }
+		.fr-view blockquote blockquote {
+			border-color: #00BCD4;
+			color: #00BCD4; }
+			.fr-view blockquote blockquote blockquote {
+				border-color: #43A047;
+				color: #43A047; } */
 	.fr-view span.fr-emoticon {
 		font-weight: normal;
 		font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
@@ -533,6 +554,20 @@ ul,
 ol {
 	padding-left: 20px;
 }
+/* Fade effect */
+/* Over effect */
+/* Slide effect */
+/* Over and Slide effect */
+/* Flip Left effect */
+/* Flip Right effect */
+/* Flip Top effect */
+/* Flip Bottom effect */
+/* Wobble Left effect */
+/* Wobble Right effect */
+/* Wobble top effect */
+/* Wobble bottom effect */
+/* Zoom and Rotate Effects */
+/* Utility */
 .u-over-slide {
 	position: absolute;
 	left: 0;
@@ -41934,6 +41969,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables colors*/
 
 /*begin-variables sitestylecss*/
+
 .u-custom-color-1,
 				.u-body.u-custom-color-1,
 				section.u-custom-color-1:before,
@@ -42004,6 +42040,9 @@ a.u-link.u-text-hover-grey-90:hover {
 						color: #fd0202 !important;
 				}
 
+				
+
+				
 				.u-border-custom-color-1,
 				.u-border-custom-color-1.u-input,
 				.u-border-custom-color-1.u-field-input.u-field-input,
@@ -42040,19 +42079,21 @@ a.u-link.u-text-hover-grey-90:hover {
 				li.active > a.u-button-style.u-button-style.u-border-active-custom-color-1,
 				input.u-field-input.u-field-input.u-border-active-custom-color-1:checked
 				{
-					color: #fd0202 !important;
-					border-color: #fd0202 !important;
+						color: #fd0202 !important;
+						border-color: #fd0202 !important;
 				}
 
 				.u-link.u-border-custom-color-1[class*="u-border-"]
 				{
-					border-color: #fd0202 !important;
+						border-color: #fd0202 !important;
 				}
 
 				.u-link.u-border-custom-color-1[class*="u-border-"]:hover
 				{
-					border-color: #e40202 !important;
+						border-color: #e40202 !important;
 				}
+				
+
 				
 				.u-text-custom-color-1,
 				.u-input.u-text-custom-color-1,
@@ -42125,11 +42166,131 @@ a.u-link.u-text-hover-grey-90:hover {
 
 				.u-body
 				{
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				--theme-sheet-width-xl: 1140px;
 				--theme-sheet-width-lg: 940px;
 				--theme-sheet-width-md: 720px;
 				--theme-sheet-width-sm: 540px;
 				--theme-sheet-width-xs: 340px;
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				}
 
 				/** common-rules **/
@@ -42661,20 +42822,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
 	.u-header .u-sheet-2 {
-		min-height: 198px;
+		min-height: 204px;
 	}
 
 	.u-header .u-menu-1 {
-		margin-top: 11px;
+		margin-top: 140px;
 		margin-right: auto;
 	}
 
 	.u-header .u-image-1 {
 		width: 393px;
 		height: 108px;
-		margin-top: 11px;
+		margin-top: -180px;
 		margin-left: auto;
-		margin-bottom: 10px;
+		margin-bottom: 60px;
 	}
 }
 @media (max-width: 991px) {
@@ -42701,20 +42862,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
 	.u-header .u-sheet-2 {
-		min-height: 203px;
+		min-height: 207px;
 	}
 
 	.u-header .u-menu-1 {
 		width: auto;
-		margin-top: 71px;
-		margin-right: 135px;
+		margin-top: 72px;
+		margin-right: 83px;
 	}
 
 	.u-header .u-image-1 {
-		width: 411px;
-		height: 113px;
-		margin-top: -87px;
-		margin-bottom: 47px;
+		width: 462px;
+		height: 127px;
+		margin-top: -95px;
+		margin-bottom: 40px;
 		margin-left: 20px;
 	}
 }
@@ -42741,17 +42902,21 @@ a.u-link.u-text-hover-grey-90:hover {
 	}
 }
 @media (max-width: 767px) {
+	.u-header .u-sheet-2 {
+		min-height: 243px;
+	}
+
 	.u-header .u-menu-1 {
-		margin-top: 14px;
+		margin-top: 159px;
 		margin-right: auto;
 	}
 
 	.u-header .u-image-1 {
-		width: 399px;
-		height: 110px;
-		margin-top: 19px;
+		width: 428px;
+		height: 118px;
+		margin-top: -203px;
 		margin-left: auto;
-		margin-bottom: 15px;
+		margin-bottom: 60px;
 	}
 }
 @media (max-width: 575px) {
@@ -42772,18 +42937,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
 	.u-header .u-sheet-2 {
-		min-height: 199px;
+		min-height: 213px;
 	}
 
 	.u-header .u-menu-1 {
-		margin-top: 115px;
+		margin-top: 129px;
 	}
 
 	.u-header .u-image-1 {
-		height: 85px;
-		width: 324px;
-		margin-top: -155px;
-		margin-bottom: 60px;
+		height: 89px;
+		width: 323px;
+		margin-top: -173px;
 	}
 }
  .u-footer {
