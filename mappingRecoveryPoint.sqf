@@ -18,3 +18,25 @@ spawnObjects = {
 };
 
 [_objects] call spawnObjects;
+
+    case 1 : { //create fire target
+        _spawnPosDir params ["_position", "_dir"];
+        private _fireObject = createVehicle ["HL_Cible_Invisible", _position, [], 0, "CAN_COLLIDE"];
+        sleep 0.1;
+        _fireObject setDir _dir;
+        _fireObject setVariable ["power", _power, false];
+        _fireObject addEventhandler ["HandleDamage", {
+            params ["_fireObject", "_selection", "_damage", "_source", "_projectile", "_hitIndex", "_instigator", "_hitPoint"];
+            if (_projectile isEqualTo "HL_Water") then {
+                private _strength = if (currentWeapon _instigator isEqualTo "HL_Lance_Incendie") then {1/NB_HIT_TO_DESTROY_FIRE_HOSE} else {1/NB_HIT_TO_DESTROY_FIRE_EXTINGUISHER};
+                private _newDamage = (_fireObject getVariable ["waterDamage", 0]) + _strength;
+                if (_newDamage >= 1) then {
+                    [2, _fireObject] spawn SYS_fnc_fire;
+                } else {
+                    _fireObject setVariable ["waterDamage", _newDamage, false];
+                };
+            };
+
+            _dmg = 0;
+            _dmg
+        }];
